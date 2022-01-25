@@ -1,0 +1,193 @@
+/* Index
+Fonts in use*/
+@font-face {
+  font-family: "Quosm-Bold";
+  src: url(css/fonts/Quosm-Bold.ttf);
+}
+@font-face {
+  font-family: "Quosm";
+  src: url(css/fonts/Quosm.ttf);
+}
+@font-face {
+  font-family: "Manus";
+  src: url(css/fonts/Manus.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  background-color: darkslategrey;
+  color: darkgoldenrod;
+}
+
+.timeline {
+  padding: 0px 100px;
+  position: relative;
+  width: 100%;
+}
+
+.timeline ul li {
+  font-family: "Quosm";
+  position: relative;
+  width: 50%;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 4px;
+  background-color: darkgoldenrod;
+  left: 50%;
+  top: 10%;
+}
+
+.timeline ul li:nth-child(odd) {
+  float: left;
+  text-align: right;
+  clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.timeline ul li:nth-child(odd) .content {
+  margin-right: 100px;
+}
+
+.timeline ul li:nth-child(even) .content {
+  margin-left: 100px;
+}
+
+.timeline ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.timeline ul li:nth-child(odd) .image {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  right: -67px;
+  /* this left is the negative of total width of this width of timeline .image */
+  top: 50%;
+  transform: translate(0%, -50%);
+  border: 4px solid darkgoldenrod;
+}
+
+.timeline ul li:nth-child(even) .image {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  left: -63px;
+  /* this left is the negative of total width of this width of timeline .image */
+  top: 50%;
+  transform: translate(0%, -50%);
+  border: 4px solid darkgoldenrod;
+}
+
+.content {
+  padding: 50px 0px;
+}
+
+.timeline ul .image a {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  border-radius: 100%;
+  margin: 0;
+  transition: opacity 500ms;
+  color: cornsilk;
+  text-align: center;
+
+  /* Center contents */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timeline ul .image:hover a {
+  text-align: center;
+  opacity: 1;
+}
+
+.timeline ul li:nth-child(1) .image {
+  background-image: url(../img/timeline/1853_young_vincent.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.timeline ul li:nth-child(2) .image {
+  background-image: url(../img/timeline/1869_goupil_cie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.timeline ul li:nth-child(3) .image {
+  background-image: url(../img/timeline/1875_borinage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.timeline ul li:nth-child(4) .image {
+  background-image: url(../img/timeline/1880_theo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.timeline ul li:nth-child(5) .image {
+  background-image: url(../img/timeline/1883_aardappeleters.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.timeline ul li:nth-child(6) .image {
+  background-image: url(../img/timeline/1886_monmartre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.timeline ul li:nth-child(7) .image {
+  background-image: url(../img/timeline/1889_ear.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.timeline_title {
+  font-family: "Quosm-Bold";
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.timeline_text {
+  font-family: "Quosm";
+  font-size: 14px;
+}

@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Quosm-Bold";
+  src: url(fonts/Quosm-Bold.ttf);
+}
+@font-face {
+  font-family: "Quosm";
+  src: url(fonts/Quosm.ttf);
+}
+@font-face {
+  font-family: "Manus";
+  src: url(fonts/Manus.ttf);
+}
+
+h3.nomad_title {
+  text-align: left;
+  font-family: "Quosm-Bold";
+  font-size: 16px;
+  color: rgba(54, 83, 61);
+}
+
+p.nomad_text {
+  text-align: left;
+  font-family: "Quosm";
+  font-size: 14px;
+  color: rgba(54, 83, 61);
+}
+
+.hide {
+  background-color: rgba(255, 248, 220, 0.75);
+  width: 250px;
+  border-radius: 8px;
+  text-align: left;
+  position: absolute;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.nomad_london {
+  top: 45%;
+  left: 65%;
+}
+.nomad_borinage {
+  top: 45%;
+  left: 65%;
+}
+.nomad_brussels {
+  top: 45%;
+  left: 65%;
+}
+.nomad_dordrecht {
+  top: 45%;
+  left: 65%;
+}
+.nomad_thehague {
+  top: 45%;
+  left: 65%;
+}
+.nomad_antwerp {
+  top: 45%;
+  left: 65%;
+}
+.nomad_amsterdam {
+  top: 45%;
+  left: 65%;
+}
+.nomad_drenthe {
+  top: 45%;
+  left: 65%;
+}
+.nomad_etten {
+  top: 45%;
+  left: 65%;
+}
+.nomad_tilburg {
+  top: 45%;
+  left: 65%;
+}
+.nomad_zevenbergen {
+  top: 45%;
+  left: 65%;
+}
+.nomad_zundert {
+  top: 45%;
+  left: 65%;
+}
+.nomad_nuenen {
+  top: 45%;
+  left: 65%;
+}
+.nomad_paris {
+  top: 45%;
+  left: 65%;
+}
+.nomad_arles {
+  top: 45%;
+  left: 65%;
+}
+.nomad_saintremy {
+  top: 45%;
+  left: 65%;
+}
+.nomad_saintauvers {
+  top: 45%;
+  left: 65%;
+}

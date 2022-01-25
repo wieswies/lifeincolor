@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Quosm";
+  src: url(fonts/Quosm.ttf);
+}
+
+body {
+  font-family: "Quosm";
+}
