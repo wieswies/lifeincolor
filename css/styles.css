@@ -21,6 +21,10 @@ Default settings */
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   min-height: 100vh;
   size: cover;
@@ -37,6 +41,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: "Quosm";
+  overflow-x: hidden;
 }
 
 /* Index
@@ -67,6 +72,13 @@ header {
   margin-right: auto;
 }
 
+.header_title a {
+  font-family: "Quosm-Bold";
+  color: rgb(54, 83, 61);
+  cursor: pointer;
+  margin-right: auto;
+}
+
 .nav_links {
   list-style: none;
   color: rgb(54, 83, 61);
@@ -85,6 +97,19 @@ header {
 
 .nav_links li a:hover {
   color: rgb(243, 186, 28);
+}
+
+.linktocolormap {
+  font-family: "Quosm-Bold";
+  color: rgb(54, 83, 61);
+  text-align: center;
+}
+
+.linktocolormap a {
+  font-family: "Quosm-Bold";
+  color: rgb(54, 83, 61);
+  cursor: pointer;
+  text-align: center;
 }
 
 /* Index
@@ -145,7 +170,7 @@ Hierarchical section layout */
   );
 }
 
-.about {
+.time {
   background: rgb(255, 248, 220);
   align-items: center;
 }
@@ -162,10 +187,6 @@ Hierarchical section layout */
   height: 200vh;
   /*background-image: url(../img/miscellaneous/ae_yellowhouse.jpg);*/
   background-color: rgba(81, 109, 101, 0.95);
-}
-
-.axis .domain {
-  display: none;
 }
 
 .seasons {
@@ -295,9 +316,9 @@ Floating boxes */
   align-content: center;
 }
 
-.stackedbarchart_box {
+.stackedbarchart_box1 {
   position: absolute;
-  width: 400px;
+  width: 250px;
   height: 270px;
   display: flex;
   align-items: center;
@@ -305,6 +326,19 @@ Floating boxes */
   padding: 30px;
   border-radius: 8px;
   margin-left: 331px;
+  margin-top: 0px;
+}
+
+.stackedbarchart_box2 {
+  position: absolute;
+  width: 250px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  margin-left: 400px;
   margin-top: 0px;
 }
 
@@ -328,20 +362,22 @@ img {
 }
 
 .colormap_box {
-  width: 400px;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.work {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
 .colormap_text {
-  position: absolute;
   background-color: rgba(255, 248, 220);
   font-family: "Quosm-Bold";
-  width: 150px;
-  height: 150px;
+  width: 100%;
   padding: 30px;
-  border-radius: 8px;
   text-align: center;
   align-items: center;
 }
@@ -371,35 +407,60 @@ img {
   margin-top: 250px; */
 }
 
-/* Index
-Charts */
-#workcount {
-  position: absolute;
+.vincent_to_colormap {
   width: 100%;
-  height: 500px;
-}
-
-#workcount_season {
+  height: 15px;
   position: absolute;
-  width: 90%;
-  height: 90%;
-}
-
-#workcount_sorted {
-  position: absolute;
-  width: 100%;
-  height: 500px;
-}
-
-#animated_createdin {
-  position: absolute;
-  width: 100%;
-  height: 500px;
+  margin-bottom: 40px;
 }
 
 /* Index
-Trials */
-#chartdiv {
+Frames */
+.frame {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.colorframe {
+  display: block;
+  width: 40px;
+  margin: 5px;
+  height: 75vh;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.colorframe > a {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 550px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: cornsilk;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  transition: opacity 500ms;
+  opacity: 0;
+  margin: 0;
+}
+
+.colorframe:hover > a {
+  opacity: 1;
+}
+
+.colorframe_title {
+  font-size: 12;
+  font-weight: bold;
+  margin-top: 2em;
+  transform: rotate(-90deg) translate(50%, 0);
+  color: white;
+  width: 900px;
+  top: 90%;
+  position: relative;
 }

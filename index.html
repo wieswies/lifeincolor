@@ -11,6 +11,7 @@
     <link rel="stylesheet" media="screen" href="/css/nomad.css" />
     <link rel="stylesheet" media="screen" href="/css/charts.css" />
     <link rel="stylesheet" media="screen" href="/css/colormaps.css" />
+    <link rel="stylesheet" media="screen" href="/css/colormap_frames.css"/>
 
     <link rel="shortcut icon" type="image/png" href="img/miscellaneous/ab_pin_browser.png" />
   
@@ -27,7 +28,9 @@
   <body>
   <meta charset="utf-8">
       <header>
-        <div class="header_title">life in color</div>
+        <div class="header_title"> 
+          <a href="index.html">life in color</a>
+          </div>
         <nav>
           <ul class="nav_links">
             <li><a href="#flow01">vincent</a></li>
@@ -55,20 +58,7 @@
         <p class="quote">I dream my painting, <br> and I paint my dream</h1>
     </section>
 
-    <!-- <section id="about" class="about">
-      <div class="box">
-        <div class="about_visual"></div>
-        <div class="about_text">
-          <div class="content">
-            <h2 class="title">The artist's journey</h1>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque optio, ab cupiditate assumenda, corporis repellat laudantium quaerat vitae recusandae id ea nostrum. Labore saepe quae molestiae nisi vel minus provident alias quod. Autem dolore neque laboriosam incidunt harum deleniti quidem ad, quo eum nam voluptas asperiores sit quaerat ipsa?            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <section id="about" class="about">
+    <section id="time" class="time">
         <div class="timeline">
         <ul>
           <li>
@@ -196,17 +186,23 @@
 
     <section class="stackedbarchart">
       <div class="box">
-        <div class="stackedbarchart_box">
+        <div class="stackedbarchart_box1">
           <div class="content">
             <div id="stackedbarchart">
-              <svg id="stackedbarchatSvg" width="400" height="500"></svg>
+              <svg id="stackedbarchatSvg" width="250" height="400"></svg>
             </div>
+            <svg id="barchart_year"  width="250" height="150"></svg>
             <script
             type="text/javascript"
             src="/script/charts/stackedbarchart.js"
             ></script>
+            <script
+            type="text/javascript"
+            src="/script/charts/barchart.js"
+            ></script>
           </div>
         </div>
+      </div>
       </div>
         <div class="stackedbarchart_text">
           <div class="content">
@@ -215,8 +211,9 @@
           </div>
         </div>
       </div>
+      </div>
+      
     </section>
-
 
     <section class="flow-03">
       <div class="content">
@@ -1983,105 +1980,21 @@
         The artist always got back behind the canvas. <br>
         <br> 
         Can art speak for the soul? </p>
-        <a href="colormap.html">discover Vincent's life in color</a>
       </div>
     </section>
 
-    <section class="flow-05"></section>
-
-    <section class="colormapping_thehague">
-      <div class="box colormap_box">
-        <img src="img/colormappings/thehague_1.jpg">
-        <img src="img/colormappings/thehague_2.jpg">
-      </div>
-      <div class="colormap_text">The Hague and Scheveningen</div>
-      
-      <!-- <div class="box colormap_1">
-        <img src="img/colormappings/thehague_1.jpg"></div>
-      </div>
-      <div class="box colormap_2">
-        <img src="img/colormappings/thehague_2.jpg"></div>
-      </div>
-      <div class="box colormapping_text">The Hague</div> -->
-    </section>
-    
-    <section class="colormapping_drenthe">
-      <div class="box colormap_1">
-        <img src="img/colormappings/drenthe_1.jpg"></div>
-      </div>
-      <div class="box colormapping_text">Drenthe</div>
-    </section>
-
-    <section class="colormapping_amsterdam">
-      <div class="box colormap_1">
-        <img src="img/colormappings/amsterdam_1.jpg"></div>
-      </div>
-      <div class="box colormap_2">
-        <img src="img/colormappings/Amsterdam_2.jpg"></div>
-      </div>
-      <div class="box colormapping_text">Amsterdam</div>
-    </section>
-
-    <section class="colormapping_antwerp">
-      <div class="box colormap_1">
-        <img src="img/colormappings/antwerp_1.jpg"></div>
-      </div>
-      <div class="box colormap_2">
-        <img src="img/colormappings/antwerp_2.jpg"></div>
-      </div>
-      <div class="box colormapping_text">Antwerp</div>
-    </section>
-
-    <section class="colormapping_nuenen">
-      <div class="box colormap_1">
-        <img src="img/colormappings/nuenen_1.jpg"></div>
-      </div>
-      <div class="box colormap_2">
-        <img src="img/colormappings/nuenen_2.jpg"></div>
-      </div>
-      <div class="box colormapping_text">Nuenen</div>
-    </section>
-
-    <section class="colormapping_paris">
-      <div class="box colormap_1">
-        <img src="img/colormappings/paris_1.jpg"></div>
-      </div>
-      <div class="box colormap_2">
-        <img src="img/colormappings/paris_2.jpg"></div>
-      </div>
-      <div class="box colormapping_text">Paris</div>
-    </section>
-
-    <section class="colormapping_arles">
-      <div class="box colormap_1">
-        <img src="img/colormappings/arles_1.jpg"></div>
-      </div>
-      <div class="box colormap_2">
-        <img src="img/colormappings/arles_2.jpg"></div>
-      </div>
-      <div class="box colormapping_text">Arles</div>
-    </section>
-
-    <section class="colormapping_saintremy">
-      <div class="box colormap_1">
-        <img src="img/colormappings/saintremy_1.jpg"></div>
-      </div>
-      <div class="box colormap_2">
-        <img src="img/colormappings/saintremy_2.jpg"></div>
-      </div>
-      <div class="box colormapping_text">Saint-Rémy</div>
-    </section>
-
-    <section class="colormapping_auverssuroise">
-      <div class="box colormap_1">
-        <img src="img/colormappings/auverssuroise_1.jpg"></div>
-      </div>
-      <div class="box colormap_2">
-        <img src="img/colormappings/auverssuroise_2.jpg"></div>
-      </div>
-      <div class="box colormapping_text">Auvers-sur-Oise</div>
+    <section class="flow-05">
+      <div class="linktocolormap">
+        <a href="colormap.html">
+          <span>vincent's life in color</span>
+          </a>
+        </div>
+        <div class="box vincent_to_colormap colormapping_arles">
+          <div></div>
+        </div>
     </section>
 
     <script src="script/interactive_maps/nomad.js"></script>
+    <script src="script/animations/timeline.js"></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
-.colormapping_thehague {
+.cm_thehague {
   background: rgb(255, 248, 220);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgb(53, 44, 28),
     rgb(237, 221, 203),
     rgb(173, 142, 68),
@@ -33,20 +33,20 @@
   );
 }
 
-.colormapping_drenthe {
+.cm_drenthe {
   background: rgb(255, 248, 220);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgb(82, 83, 83),
     rgb(80, 86, 71),
     rgb(168, 120, 70)
   );
 }
 
-.colormapping_amsterdam {
+.cm_amsterdam {
   background: rgb(255, 248, 220);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgb(162, 167, 156),
     rgb(84, 87, 74),
     rgb(126, 128, 111),
@@ -54,10 +54,10 @@
   );
 }
 
-.colormapping_antwerp {
+.cm_antwerp {
   background: rgb(255, 248, 220);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgb(126, 125, 106),
     rgb(39, 37, 24),
     rgb(66, 67, 52),
@@ -68,10 +68,10 @@
   );
 }
 
-.colormapping_nuenen {
+.cm_nuenen {
   background: rgb(255, 248, 220);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgb(65, 69, 61),
     rgb(69, 60, 52),
     rgb(152, 173, 161),
@@ -269,10 +269,10 @@
   );
 }
 
-.colormapping_paris {
+.cm_paris {
   background: rgb(255, 248, 220);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgb(56, 49, 26),
     rgb(97, 130, 148),
     rgb(130, 139, 140),
@@ -502,10 +502,10 @@
   );
 }
 
-.colormapping_arles {
+.cm_arles {
   background: rgb(255, 248, 220);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgb(171, 175, 153),
     rgb(184, 195, 192),
     rgb(162, 149, 118),
@@ -695,10 +695,10 @@
   );
 }
 
-.colormapping_saintremy {
+.cm_saintremy {
   background: rgb(255, 248, 220);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgb(140, 136, 100),
     rgb(102, 122, 105),
     rgb(69, 90, 75),
@@ -851,10 +851,10 @@
   );
 }
 
-.colormapping_auverssuroise {
+.cm_auverssuroise {
   background: rgb(255, 248, 220);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgb(141, 156, 137),
     rgb(102, 113, 96),
     rgb(108, 121, 106),
