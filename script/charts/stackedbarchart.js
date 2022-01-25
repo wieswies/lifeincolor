@@ -17,7 +17,7 @@ var z = d3.scaleOrdinal().range(["#db733b", "#85c0ed", "#88a364", "#f3ba1c"]);
 
 // load the csv and create the chart
 d3.csv(
-  "https://raw.githubusercontent.com/wieswies/life_in_color/main/life_in_color/data/vgph_barchart.csv",
+  "https://raw.githubusercontent.com/wieswies/lifeincolor/main/data/statistics/vgph_barchart.csv",
   function (d, i, columns) {
     for (i = 1, t = 0; i < columns.length; ++i)
       t += d[columns[i]] = +d[columns[i]];
