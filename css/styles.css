@@ -112,6 +112,35 @@ header {
   text-align: center;
 }
 
+.linktocolors {
+  position: absolute;
+  bottom: 20px;
+  font-family: "Quosm-Bold";
+  color: rgb(54, 83, 61);
+  text-align: center;
+}
+
+.linktocolors a {
+  font-family: "Quosm-Bold";
+  color: rgb(54, 83, 61);
+  cursor: pointer;
+  text-align: center;
+}
+
+.linktoabout {
+  bottom: 20px;
+  font-family: "Quosm-Bold";
+  color: cornsilk;
+  text-align: center;
+}
+
+.linktoabout a {
+  font-family: "Quosm-Bold";
+  color: cornsilk;
+  cursor: pointer;
+  text-align: center;
+}
+
 /* Index
 Text layout */
 h1.quote {
@@ -136,6 +165,14 @@ h2.title {
   font-family: "Quosm-Bold";
   font-size: 25px;
   color: rgb(54, 83, 61);
+}
+
+h3.title {
+  font-family: "Quosm-Bold";
+  font-size: 15px;
+  color: rgba(54, 83, 61, 0.3);
+  text-align: center;
+  line-height: 25px;
 }
 
 p {
@@ -237,8 +274,24 @@ Page flows */
   background: linear-gradient(0deg, rgb(200, 182, 72), rgb(183, 185, 144) 100%);
 }
 
-.flow-06 {
+#flow-06 {
+  background: rgb(53, 44, 28);
+  background: linear-gradient(0deg, rgb(53, 44, 28), cornsilk);
+}
+
+.flow-07 {
+  background: rgb(188, 172, 136);
+  background: linear-gradient(
+    180deg,
+    rgba(188, 172, 136, 1) 30%,
+    rgba(188, 172, 136, 0.7)
+  );
+}
+
+.flow-08 {
+  height: 10vh;
   background: rgb(135, 113, 64);
+  background: linear-gradient(180deg, rgb(135, 113, 64), rgb(82, 83, 83));
 }
 
 /* Index
