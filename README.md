@@ -18,7 +18,7 @@ Lastly, regarding his yearly productivity, there was an overall increase that st
 
 ### Credits
 Statistical data about Vincent van Gogh's paintings and retrieving the colors: https://en.wikipedia.org/wiki/List_of_works_by_Vincent_van_Gogh <br>
-Historical data about Vincent's life: https://www.vangoghmuseum.nl/en
+Historical data about Vincent's life: https://www.vangoghmuseum.nl/en <br>
 Quotes from Vincent van Gogh: https://www.brainyquote.com/authors/vincent-van-gogh-quotes and https://www.goodreads.com/author/quotes/34583.Vincent_van_Gogh
 
 #### Methodology
