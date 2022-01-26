@@ -20,3 +20,13 @@ Lastly, regarding his yearly productivity, there was an overall increase that st
 Statistical data about Vincent van Gogh's paintings and retrieving the colors: https://en.wikipedia.org/wiki/List_of_works_by_Vincent_van_Gogh
 Historical data about Vincent's life: https://www.vangoghmuseum.nl/en
 Quotes from Vincent van Gogh: https://www.brainyquote.com/authors/vincent-van-gogh-quotes and https://www.goodreads.com/author/quotes/34583.Vincent_van_Gogh
+
+#### Methodology
+1. Webscraping applied in Python
+2. Data cleaning and season and color calculations in Python
+3. Website built and hosted in HTML, styled with CSS and animated with Javascript
+4. Map drawn with geojson and d3, later redesigned in Adobe Illustrator
+
+##### Contact
+Author: Wies Ruyters
+Contact: wiesruyters@gmail.com
