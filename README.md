@@ -12,8 +12,8 @@ Therefore, I conclude that his surroundings, i.e. the places from where he paint
 This was to be expected, however, as Vincent van Gogh is an impressionist who paints directly what he sees. 
 With respect to the seasonality of his work, no clear conclusions can be drawn. This partly due to the lacking information about his time in Paris.
 For some years, he did paint more in specific seasons, e.g. summer. From the historical knowledge about Vincent van Gogh, 
-it seems more logical that the seasonality was rather coincidental - a matter of whether he was in the ability to paint. 
-Additionally, he switched places a lot. Therefore, he painted winters in place a, and summers in place b, sometimes. 
+it seems more logical that the seasonality was rather coincidental - a matter of whether he had the ability to paint. 
+Moreover, he switched places a lot. Therefore, he painted sometimes painted winters in place A, and summers in place B. 
 Lastly, regarding his yearly productivity, there was an overall increase that started to decline as he became ill. 
 
 ### Credits
