@@ -7,7 +7,7 @@ More particularly, his seasonal, yearly, geographical and color patterns were an
 ## Notes from the author
 The website does not highlight strong conclusions about the analysis, as I encourage people to interpret the visualizations freely. 
 When starting this project, I expected to find different colors towards the end of Vincent's life, while he became mentally ill. 
-However, from the visualizations it becomes clear that the colors he used actually became brighter. 
+From the visualizations it becomes clear that the colors he used actually became brighter. 
 Therefore, I conclude that his surroundings, i.e. the places from where he painted, were of great influence. 
 This was to be expected, however, as Vincent van Gogh is an impressionist who paints directly what he sees. 
 With respect to the seasonality of his work, no clear conclusions can be drawn. This partly due to the lacking information about his time in Paris.
